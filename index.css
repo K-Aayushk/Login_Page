@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#maincon{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+    z-index: 100;
+    background: rgb(214,220,227);
+background: radial-gradient(circle, rgba(214,220,227,1) 26%, rgba(208,210,215,1) 100%);
+}
+input{
+    position: relative;
+    display: block;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid;
+    background: rgb(214,220,227);
+    background: radial-gradient(circle, rgba(214,220,227,1) 26%, rgba(208,210,215,1) 100%);
+
+}
+#con1{
+    padding-left: 10px;
+    position: relative;
+    /* border: 1px solid; */
+    height: 105px;
+    width: 250px;
+    top: 50px;
+    float: left;
+    left: 15px;
+}
+#con1>p{
+    font-family: "Anta",sans-serif;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+}
+#con1>button{
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+}
+#icon1>button:focus{
+    outline: none;
+    box-shadow: none;
+}
+#box{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    background: rgb(1,49,105);
+    background: linear-gradient(180deg, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+    z-index: 5;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#con2{
+    /* border: 1px solid; */
+    position:absolute;
+    width: 250px;
+    height: 105px;
+    position: absolute;
+    top: 50px;
+    left: 65%;
+}
+#con2>p{
+    font-family: "Anta",sans-serif;
+    font-weight: 600;
+}
+#con2>button{
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+}
+#box1{
+    top: 20%;
+    z-index: 5;
+    height: 105px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+}
+#box1>p{
+    font-family: "Anta",sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#box1>#a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#box2{
+    height: 105px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    top: 20%;
+    display: none;
+}
+#box2>p{
+    font-family: "Anta",sans-serif;
+    font-weight: 600;
+    color: white;
+}
+#box2>#aa{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#c1{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    /* border: 1px solid; */
+    top: 0px;
+    background: #013169;
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+    border-bottom-right-radius: 100%;
+    z-index: 1;
+    background-color: #dc0707;
+}
+#c2{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 370px;
+    border-radius: 50%;
+    left: 100px;
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
+#c3{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid; */
+    position: absolute;
+    top:455px;
+    left: 450px;
+    border-top-left-radius: 150%;
+    /* border-top-right-radius: 150%; */
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
+#c4{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid; */
+    position: absolute;
+    top:455px;
+    left: 550px;
+    border-top-right-radius: 100%;
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
+#c5{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 75px;
+    left: 700px;
+    border-radius: 50%;
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
+#c6{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    border-radius: 50%;
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
+#c7{
+    height: 350px;
+    width: 250px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 205px;
+    left: 977px;
+    border-top-left-radius: 500%;
+    /* border-bottom-left-radius: 500%; */
+    background: rgb(1,49,105);
+    background: radial-gradient(circle, rgba(1,49,105,1) 26%, rgba(1,19,105,1) 100%);
+}
